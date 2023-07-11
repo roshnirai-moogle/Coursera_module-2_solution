@@ -1,0 +1,85 @@
+.cat {
+    background-color: gray;
+    border-color: black;
+    border: 3px solid black;
+    margin: 10px;
+    float: left;
+    width: 30%;
+    height: 160px;
+
+}
+
+.inDiv {
+    margin-top: 30px;
+
+}
+
+#hchick {
+    background-color: pink;
+}
+
+#hmut {
+    background-color: red;
+}
+
+#hfish {
+    background-color: yellow;
+}
+
+
+.subhead {
+
+    margin-top: 0px;
+    float: right;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media(min-width:992px) {
+    #fish {
+        width: 30%;
+    }
+
+    #mut {
+        width: 30%;
+    }
+
+    #chick {
+        width: 30%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #chick {
+        width: 45%;
+
+    }
+
+    #mut {
+        width: 45%;
+
+    }
+
+    #fish {
+
+        width: 45%;
+    }
+}
+
+@media(max-width:767px) {
+    #chick {
+        width: 100%;
+    }
+
+    #mut {
+        width: 100%;
+    }
+
+    #fish {
+        width: 100%;
+    }
+}
